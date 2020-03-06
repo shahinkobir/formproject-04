@@ -1,0 +1,88 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{}
+header{
+	background-color: #c9e817;
+}
+img{
+	width: 140px;
+}
+nav{
+    /* color: #6b5b5b; */
+}
+ul{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	list-style: none;
+	/* font-size: 0px; */
+	}
+}
+li{
+	list-style-type: none;
+}
+a{
+	padding: 10px;
+    text-decoration: none;
+    color: maroon;
+    display: block;
+    font-size: 16.6px;
+	text-transform: capitalize;
+}
+.form-section{
+		padding: 70px;
+		background-image: url(../images/group-young-people-posing-photo_52683-18823.jpg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: left;
+		background-color: #cfd8becc;
+		background-blend-mode: color-burn;
+}
+.form-box{
+	width: 304px;
+	margin: auto;
+	text-align: center;
+}
+h1{
+	font-size: 45px;
+	text-transform: capitalize;
+}
+p{
+	font-size: 28px;
+	text-transform: capitalize;
+}
+form{
+	text-align: left;
+	margin-top: 30px;
+}
+.input{
+	width: 100%;
+	padding:10px 15px;
+	border: 2px solid #e4c59c;
+	margin-bottom: 10px;
+	font-size: 20px;
+	color: #131211;
+}
+label{
+    text-transform: capitalize;
+    /* margin-bottom: 17px; */
+}
+b{
+	display: block;
+}
+input[type="submit"]{
+	display: block;
+	padding: 10px 30px;
+	font-size: 15px;
+	background-color : #e4c59c;
+	margin-top: 20px;
+	cursor: pointer;
+	font-size: 20px;
+
+}
+input[type="submit"]:hover{
+	color:#c9e817;
+}
